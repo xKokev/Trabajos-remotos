@@ -38,7 +38,7 @@ export const Hero = ({ data }) => {
             <Heading
               as="h1"
               size="3xl"
-              color={mode("purple.600", "purple.300")}
+              color={mode("#25ace3", "green.600")}
               mt={8}
               fontWeight="extrabold"
               letterSpacing="tight"
@@ -86,7 +86,7 @@ export const Hero = ({ data }) => {
               h="100%"
               top="-4"
               left="-4"
-              bg={mode("gray.200", "gray.700")}
+              bg={mode("#25ace3", "gray.700")}
             ></Box>
           </Box>
         </Stack>

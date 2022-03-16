@@ -36,7 +36,7 @@ export const Navbar = () => (
               fontWeight="bold"
               color={useColorModeValue("primary.900", "primary.200")}
             >
-              YOUR NAME
+              In All Media
             </Text>
           </Box>
           <NavContent.Desktop

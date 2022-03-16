@@ -19,12 +19,13 @@ const links = [
     href: "/",
   },
   {
-    label: "Blog",
+    label: "Job offers",
     href: "/post",
   },
   {
-    label: "Link 3",
-    href: "#",
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/company/inallmedia/",
+    "homepage": ".",
   },
   {
     label: "Link 4",
@@ -39,7 +40,7 @@ const MobileNavContent = (props) => {
       <Center
         as="button"
         p="2"
-        fontSize="2xl"
+        fontSize="3xl"
         color={useColorModeValue("gray.600", "gray.400")}
         onClick={onToggle}
       >
@@ -48,12 +49,12 @@ const MobileNavContent = (props) => {
       <NavList
         pos="absolute"
         insetX="0"
-        bg="purple.600"
+        bg="#25ACE3"
         top="64px"
         animate={isOpen ? "enter" : "exit"}
       >
         <Stack
-          spacing="0"
+          spacing="4"
           divider={<StackDivider borderColor="whiteAlpha.200" />}
         >
           {links.map((link, index) => (

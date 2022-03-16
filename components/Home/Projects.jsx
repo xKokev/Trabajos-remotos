@@ -30,7 +30,7 @@ export const Projects = ({ data }) => {
           <Heading
             as="h1"
             size="xl"
-            color={mode("purple.600", "purple.700")}
+            color={mode("#D13BE3", "purple.700")}
             mt="8"
             textAlign="center"
             fontWeight="extrabold"
@@ -52,7 +52,7 @@ export const Projects = ({ data }) => {
             return (
               <Link
                 key={item?.href}
-                href={item?.href}
+           //     href={item?.href}
                 style={{ textDecoration: "inherit" }}
               >
                 <Box

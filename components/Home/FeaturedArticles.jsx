@@ -39,7 +39,7 @@ export const FeaturedArticles = ({ data }) => {
           md: "8",
         }}
       >
-        <Heading color="purple.500" size="xl" mb="8" fontWeight="extrabold">
+        <Heading color="#25ace3" size="xl" mb="8" fontWeight="extrabold">
           Featured Articles
         </Heading>
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing="12" mb="10">
@@ -119,9 +119,9 @@ export const FeaturedArticles = ({ data }) => {
           href="/post"
           fontSize="xl"
           fontWeight="bold"
-          color={mode("purple.600", "purple.400")}
+          color={mode("#25ace3", "purple.400")}
         >
-          <span>View all articles</span>
+          <span>All job offers</span>
           <Box as={ArrowForwardIcon} display="inline-block" ms="2" />
         </Link>
       </Box>
