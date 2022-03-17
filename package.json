@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "yarn tinacms server:start -c \"next dev\"",
     "build": "yarn tinacms server:start -c \"next build\"",
-    "start": "yarn tinacms server:start -c \"next start\" node_modules/next/dist/bin/next start -p $PORT",
+    "start": "yarn tinacms server:start -c \"next start\"",
     "lint": "next lint"
   },
     "dependencies": {
